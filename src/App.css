@@ -1,0 +1,47 @@
+.App{
+  display: table;
+  margin: 0 auto;
+  border: solid 1px;
+    text-align: center;
+}
+.details{
+  display: flex;
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+}
+.details h4{
+  margin-right: 24px;
+}
+.input-form{
+  display: inline-grid;
+}
+.input-form button {
+  width: 255px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.input-box{
+  height: 42px;
+    margin: top;
+    margin-top: 15px;
+}
+.hsi-li{
+  border: solid 1px;
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+.hsi-li button
+{
+  /* margin-left: 205px; */
+  border: navajowhite;
+  border: none;
+  background-color: cornflowerblue;
+}
+#transation-history
+{
+  height: 240px;
+  overflow-y: scroll
+}
